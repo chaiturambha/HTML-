@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(172, 206, 236);
+    flex-direction: row;
+
+}
+
+.navbar-left {
+    padding-left: 10px;
+
+}
+
+.navbar-right {
+    text-align: left;
+    padding-top: 15px;
+    display: flex;
+    padding-bottom: 15px;
+    padding-left:5px;
+    padding-right:5px;
+    flex-direction: row;
+   
+}
+
+.n-right {
+    padding :5px;
+    padding-top: 10px;
+   
+    border: 2px solid black;
+    margin: 2px;
+   
+    
+    
+
+}
+.name {
+   
+  
+
+
+}
+.photo-right {
+
+    text-align: center ;
+
+}

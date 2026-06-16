@@ -1,13 +1,29 @@
 .navbar {
-    display:flex;
-    flex-direction:row;
-    background-color:rgb(129, 216, 224);
-    justify-content:space-between;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9a1a1;
+    padding: 10px;
 }
 .navbar-left {
-    display:flex;
-    flex-direction:row;
-    align-items:right;
-    padding-left:20px;
+    padding-left: 20px;
+    
+   
+
+
 }
+.navbar-right {
+    display:flex; 
+    padding-right:10px;
+    align-items: left;
+    flex-direction:row;
+ 
+}
+.n-right {
+    
+    padding :10px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+
