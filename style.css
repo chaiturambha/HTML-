@@ -1,17 +1,13 @@
-.logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color:chartreuse
-   
-}
 .navbar {
-    display: flex;
-    justify-content: space-between;
-}
+    display:flex;
+    flex-direction:row;
+    background-color:rgb(129, 216, 224);
+    justify-content:space-between;
 
-.nav-link {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
+}
+.navbar-left {
+    display:flex;
+    flex-direction:row;
+    align-items:right;
+    padding-left:20px;
 }
