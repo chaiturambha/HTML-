@@ -22,8 +22,11 @@
 .n-right {
     
     padding :10px;
-    border: 5px solid black;
+    border: 2px solid black;
     margin: 10px;
 }
 
+.chaitu {
+       display: contents;
 
+}
