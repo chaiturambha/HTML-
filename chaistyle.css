@@ -103,6 +103,9 @@
     border: 2px solid red;
     margin: 10px;
     font-size: 10px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
     
 }
 .word {
@@ -113,3 +116,16 @@
 .head {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.mail {
+    display: flex;
+   
+   
+    height: 30px;
+   
+    padding: 10px;
+    padding-left: 50vh;
+    
+    
+   
+} 
+
