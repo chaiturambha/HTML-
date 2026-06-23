@@ -1,14 +1,67 @@
 
-.logo {
-    margin-left: auto; 
-    color: aliceblue;   
-}
+ 
+
 
 
 .BD {
     background-image: url('https://res.cloudinary.com/nihars3/image/upload/v1696232927/photo-1619429858348-2d5ad1547e6c_nnvynb.jpg');
 }
 
-.item {
+
+
+.brand-logo{
+
+   color: aliceblue !important;
+}
+.brand-logo:hover{
+    color: rgb(11, 195, 11) !important;
+}
+
+.item-nav{
+    color: rgb(249, 249, 250) !important;
+    font-size: 18px;
+    
+}
+
+.item-nav:hover {
+    color: rgb(0, 255, 4) !important;
+}
+.chaitu {
+    margin-left: auto;
+}
+.name {
     color: white;
+    text-align: center;
+    
+}
+.para {
+    text-align: center;
+}
+.bsc {
+    color: rgb(30, 210, 30);
+    font-weight:  7px;
+}
+.button {
+    text-align: center;
+    font-size: x-large;
+    
+}
+.proimage {
+    height: 150px;
+    position:center;
+    margin-top: 6px;
+    border: solid rgb(51, 216, 5) 5px;
+    border-radius: 22px;
+}
+.about-head{
+   color: rgb(32, 213, 0);
+   text-align: center;
+   font-weight: 30px;
+}
+.summary{
+    color: white;
+    
+}
+.summary-education {
+    color: rgb(226, 141, 23);
 }
