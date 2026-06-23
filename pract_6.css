@@ -31,6 +31,10 @@
    
     
 }
+.contact:hover {
+    box-shadow: red;
+    border: rgb(16, 186, 237);
+}
 .passion {
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

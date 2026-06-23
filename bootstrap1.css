@@ -4,8 +4,41 @@
 
 
 .BD {
-    background-image: url('https://res.cloudinary.com/nihars3/image/upload/v1696232927/photo-1619429858348-2d5ad1547e6c_nnvynb.jpg');
+
+
+  height: 200vh;
+  background: linear-gradient(
+    -45deg,
+    #ff6b6b,
+    #4ecdc4,
+    #45b7d1,
+    #6c63ff
+  );
+
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
 }
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+
+
+
 
 
 
@@ -50,11 +83,14 @@
     height: 150px;
     position:center;
     margin-top: 6px;
-    border: solid rgb(51, 216, 5) 5px;
+    border: solid     #ff6b6b,
+    #4ecdc4,
+    #45b7d1,
+    #6c63ff 5px;
     border-radius: 22px;
 }
 .about-head{
-   color: rgb(32, 213, 0);
+   color: rgb(244, 247, 243);
    text-align: center;
    font-weight: 30px;
 }
@@ -63,5 +99,54 @@
     
 }
 .summary-education {
-    color: rgb(226, 141, 23);
+    color: rgb(250, 250, 250);
+    font-family: Poppins, sans-serif;
 }
+.python{
+    height: 20px;
+    border: solid black 2px;
+}
+.Language {
+    border: 2px solid black;
+    padding: 20px;
+    margin-left: 35px;
+    box-sizing: border-box;
+    
+    border-radius: 10px;
+    color: aliceblue;
+}
+.Language:hover {
+    border: solid #00ed47;
+    box-shadow: #0d120f;
+
+}
+.certificate{
+    text-align: center;
+}
+    
+
+.tech {
+    margin-left: 32px;
+    color: azure;
+}
+.color-body{
+    background-color:  transparent;
+    background-color: #ff6b6b;
+}
+.card-one{
+
+  margin-left: 150px;
+  margin-top: 20px;
+  border: #0d120f solid 12px;
+
+}
+.image {
+    border: #0d120f solid 2px;
+}
+.back{
+    background: transparent;
+}
+    
+
+
+
